@@ -3,8 +3,20 @@ package ShiftLetter;
 import java.io.*;
 public class FileGet{
     StringBuffer s;
+    public boolean check(String s) {
+        boolean b = false;
+ 
+        String tmp = s;
+        tmp = tmp.replaceAll("\\p{P}", "");
+        if (s.length() != tmp.length()) {
+            b = true;
+        }
+ 
+        return b;
+    }
     public FileGet(String fileName){
         s=new StringBuffer("");
+        
         try {
             FileReader fr = new FileReader(fileName);
             int ch;

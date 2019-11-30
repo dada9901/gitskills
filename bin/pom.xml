@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.imyangyixuan</groupId>
-    <artifactId>Stringcharacter</artifactId>
+    <artifactId>ShiftLetter</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -15,13 +15,6 @@
             <scope>system</scope>
             <version>3.9</version>
             <systemPath>${basedir}/src/lib/commons-lang3-3.9.jar</systemPath>
-        </dependency>
-		<dependency>
-            <groupId>org.apache.commons.collections4</groupId>
-            <artifactId>commons-collections4</artifactId>
-            <scope>system</scope>
-            <version>4.4</version>
-            <systemPath>${basedir}/src/lib/commons-collections4-4.4.jar</systemPath>
         </dependency>
 
         <dependency>
